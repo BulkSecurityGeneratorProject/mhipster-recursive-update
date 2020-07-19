@@ -1,0 +1,52 @@
+{
+  "generator-jhipster": {
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "clientFramework": "angularX",
+    "serverPort": "8080",
+    "serviceDiscoveryType": false,
+    "skipUserManagement": false,
+    "baseName": "JhipsterSampleApplication",
+    "buildTool": "maven",
+    "databaseType": "sql",
+    "devDatabaseType": "h2Memory",
+    "enableHibernateCache": true,
+    "enableSwaggerCodegen": false,
+    "enableTranslation": true,
+    "jhiPrefix": "jhi",
+    "languages": ["en"],
+    "messageBroker": false,
+    "nativeLanguage": "en",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "skipClient": true,
+    "testFrameworks": [],
+    "websocket": false,
+    "applicationType": "monolith",
+    "blueprints": [
+      {
+        "name": "generator-jhipster-micronaut",
+        "version": "0.2.0"
+      }
+    ],
+    "clientPackageManager": "npm",
+    "clientTheme": "none",
+    "creationTimestamp": 1595191320285,
+    "dtoSuffix": "DTO",
+    "embeddableLaunchScript": false,
+    "jhipsterVersion": "6.10.1",
+    "packageName": "io.github.jhipster.sample",
+    "packageFolder": "io/github/jhipster/sample",
+    "skipServer": false,
+    "useSass": true,
+    "jwtSecretKey": "MzQ0MzYyMzkzMmJjMzIwODNlNjczMDQ3N2I1ODY5YWRkZjM4ZDI1NjBiMzA1NTA1NDIzYzhkZTZkZTE3NTEwNTljZjllNzkzYTEyZjVkNTZiMDAwODMzNGE0NjFkODEwYzRiMjFkMjM1M2NlYTVlZjVhY2MyZGZkOTNlMjU4Yzk=",
+    "entitySuffix": "",
+    "otherModules": [
+      {
+        "name": "generator-jhipster-micronaut",
+        "version": "0.2.0"
+      }
+    ]
+  },
+  "entities": ["BankAccount", "Label", "Operation"]
+}
